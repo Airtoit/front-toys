@@ -3,7 +3,7 @@ drawingBoard.width = window.innerWidth;
 drawingBoard.height = window.innerHeight;
 let ctx = drawingBoard.getContext('2d');
 ctx.strokeStyle = 'black';
-ctx.lineWidth = 2;
+ctx.lineWidth = 4;
 ctx.lineCap = 'round';
 
 let canDraw = false;
