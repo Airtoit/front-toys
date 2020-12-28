@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#div1 {
+  /* position: relative; */
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#div1::before {
+  content: ' ';
+  position: absolute;
+  display: block;
+}
+#div1::after {
+  content: ' ';
+  position: absolute;
+  display: block;
+}
+/* 使用媒体查询，适配移动端 */
+@media(max-width: 500px){
+    #html{
+        height: 50vh;
+        overflow: auto;
+    }
+    #div1Wrapper{
+        height: 50vh;
+    }
+    #div1{
+        position: relative;
+        left: 25%;
+        top: 25%;
+        transform: none;
+    }
+}
