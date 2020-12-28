@@ -58,4 +58,4 @@ let interval = setInterval(() => {
     if (raw[i] === undefined) {
         clearInterval(interval);
     }
-}, 0);
+}, 50);

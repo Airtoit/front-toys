@@ -6,7 +6,7 @@
 #div1 {
   /* position: relative; */
   position: fixed;
-  left: 50%;
+  left: 75%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
