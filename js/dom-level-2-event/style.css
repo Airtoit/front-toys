@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+div[class^=level]{
+  border: 1px solid;
+  display: inline-flex;
+  border-radius: 50%;
+}
+.level1{
+  background: Red;
+  padding: 20px;
+}
+.level2{
+  background: Orange;
+  padding: 20px;
+}
+.level3{
+  background: Yellow; 
+  padding: 20px;
+}
+.level4{
+  background: Green;
+  padding: 20px;
+}
+.level5{
+  background: Blue;
+  padding: 20px;
+}
+.level6{
+  background: Indigo;
+  padding: 20px;
+}
+.level7{
+  background: Violet;
+  width: 40px;
+  height: 40px;
+}
+.circle{
+  background: transparent;
+}
